@@ -42,19 +42,18 @@
     </header>
 
     <main>
-        <!-- Caixa de busca - Carlos -->
-        <!-- <div class="main-busca"> 
-            <input type="text" class="main-busca-input" placeholder="Buscar...." autofocus />
-            <button type="submit">Enviar</button>
-        </div>-->
 
         <div class="main-busca" id="busca">
-            <button type="submit" class="main-busca-botao">
-                <i class="fas fa-search" id="img-busca"></i>
-            </button>
+            <a href="#abrir-modal"><button type="submit" class="main-busca-botao">
+                    <i class="fas fa-search" id="img-busca"></i>
+                </button>
+            </a>
             <input type="text" id="busca" class="main-busca-input" placeholder="Buscar...." autofocus />
         </div>
-
+        <div id="abrir-modal" class="modal-erro">
+            <h4>Erro</h4>
+            <p>É obrigatorio digitar um valor para pesquisa</p>
+        </div>
     </main>
 
     <br>
