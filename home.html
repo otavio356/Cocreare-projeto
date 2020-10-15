@@ -5,35 +5,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Academy Project - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/935e9b3ce7.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <!-- Topo da página - Carlos -->
-    <header>
-        <div id="fundo-hero">
-            <img src="./img/hero-bg.jpg" alt="Background hero">
-        </div>
+    <header id="topo">
         <div class="logo">
-            <!-- <img src="./Img/logo-white.svg" alt="Logotipo"> ícone no fundo branco-->
-            <h3> hastagfinder</h3>
+            <img src="./Img/logo-white.svg" alt="Logotipo">
         </div>
         <nav>
-            <ul>
-                <li><a href="sobre.html">SOBRE</li></a>
-                <li><a href="login.html">LOGIN</li></a>
+            <ul class="menu">
+                <li>
+                    <div class="btn-log">
+                        <img src="./Img/icon-user-alt.svg" alt="">
+                        <a href="login.html" class="login">Login
+                    </div>
+                </li></a>
+
+                <li>
+                    <div class="btn-sobre">
+                        <img src="./Img/icon-info-circle.svg" alt="">
+                        <a href="sobre.html" class="login">Sobre
+                    </div>
+                </li></a>
+
             </ul>
         </nav>
 
-        <h1>Encontre hastags de maneira fácil</h1>
-        <h2>Digite o que deseja no campo de buscas e confira os resultados do Twitter abaixo</h2>
-
+        <div class="main-texto">
+            <h1>Encontre hastags de maneira fácil</h1>
+            <h2>Digite o que deseja no campo de buscas e confira os resultados do Twitter abaixo</h2>
+        </div>
     </header>
 
     <main>
         <!-- Caixa de busca - Carlos -->
-        <div class="main-busca">
+        <!-- <div class="main-busca"> 
             <input type="text" class="main-busca-input" placeholder="Buscar...." autofocus />
             <button type="submit">Enviar</button>
+        </div>-->
+
+        <div class="main-busca" id="busca">
+            <button type="submit" class="main-busca-botao">
+                <i class="fas fa-search" id="img-busca"></i>
+            </button>
+            <input type="text" id="busca" class="main-busca-input" placeholder="Buscar...." autofocus />
         </div>
 
     </main>

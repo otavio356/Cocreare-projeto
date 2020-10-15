@@ -1,0 +1,179 @@
+/* Reset CSS */
+*{
+    padding:0;
+    margin:0;
+    border:0;
+    list-style:none;
+    box-sizing: border-box;
+    }
+
+/* Começo Estilo topo */
+#topo{
+    background-image: url(./Img/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 788px;
+}
+.logo img{
+    margin-top: 40px;
+    margin-left: 64px;
+    margin-bottom: -41px;
+}
+.menu li{
+    display: inline-block;
+    float: right;
+    margin-right: 15px;
+}
+ .menu a{ 
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFF;
+    padding-left: 17px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2.55px;
+
+}
+.btn-log{
+    width: 170px;
+    height: 49px;
+    background-color: #3633F7;
+    display: flex;
+    align-items: center;
+    padding-left: 38px;
+    border-radius: 25px;
+
+}
+.btn-sobre{
+    width: 170px;
+    height: 49px;
+    background-color:#D842BD;
+    display: flex;
+    align-items: center;
+    padding-left: 38px;
+    border-radius: 25px;
+}
+
+
+.main-texto{
+    width: 800px;
+    margin-left: 140px;
+    margin-top: 10.5em;
+}
+
+h1{
+    font-size: 5.125em;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    color: #FFF;
+}
+h2{
+    margin: 20px 0 20px 0;
+    font-size: 1.9375em;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color: #FFF;
+}
+/* FIM Estilo topo */
+
+/* Estilo Caixa de Busca */
+.main-busca{
+    background: #FFFFFF;
+    width: 58%;
+    margin: 0 auto;
+    display: flex;
+    height: 90px;
+    padding: 20px 37px 0 37px;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 48px;
+    position: relative;
+    top: -45px;   
+    z-index: 50;
+}
+.main-busca-input{
+    flex: 9;
+    border: none;
+    color: #334459;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+
+.main-busca-input::placeholder {
+    color: #D6D6D6;
+    font-size: 2.125em;
+}
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+.main-busca-botao{
+    flex: 1;
+    border: none;
+    background-color: #FFF;
+}
+button:focus, button:active {
+    outline: none;
+}
+.fa-search {
+    color: #636363;
+    font-size: 2.125em;
+}
+/* FIM Estilo Caixa de Busca */
+
+footer {
+    background: #D842BD;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 1.5625em;
+}
+
+@media only screen and (max-width: 940px) {
+    
+    .main-texto{
+        width: 700px;
+        margin-left: 30px;
+        margin-top: 10.5em;
+    }
+
+    h1{
+        font-size: 4.75em;
+    }
+    h2{
+        font-size: 1.5em;
+    }  
+
+}
+
+@media only screen and (max-width: 735px){
+    .main-texto{
+        width: 500px;
+        margin-left: 30px;
+        margin-top: 10.5em;
+    }
+    .logo img {
+        margin-left: 15px;
+}
+@media only screen and (max-width: 535px){
+    .main-texto{
+        width: 380px;
+        margin-left: 30px;
+        margin-top: 10.5em;
+    }
+    h1{
+        font-size: 3.75em;
+    }
+    h2{
+        font-size: 1em;
+    }  
+
+}
