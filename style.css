@@ -32,7 +32,6 @@
     font-family: 'Rubik', sans-serif;
     font-weight: 700;
     letter-spacing: 2.55px;
-
 }
 .btn-log{
     width: 170px;
@@ -42,7 +41,6 @@
     align-items: center;
     padding-left: 38px;
     border-radius: 25px;
-
 }
 .btn-sobre{
     width: 170px;
@@ -53,7 +51,6 @@
     padding-left: 38px;
     border-radius: 25px;
 }
-
 
 .main-texto{
     width: 800px;
@@ -150,7 +147,7 @@ footer p{
     box-shadow: 3px 1px 0px #2222;
     font-family: 'Rubik', sans-serif;
     opacity: 0;
-
+}
 @media only screen and (max-width: 940px) {
     
     .main-texto{
