@@ -150,7 +150,7 @@ footer p{
     box-shadow: 3px 1px 0px #2222;
     font-family: 'Rubik', sans-serif;
     opacity: 0;
-
+}
 @media only screen and (max-width: 940px) {
     
     .main-texto{
@@ -176,27 +176,28 @@ footer p{
     }
     .logo img {
         margin-left: 15px;
-}
-.btn-log {
-    width: 110px;
-    padding-left: 10px;
-}
-.btn-sobre {
-    width: 110px;
-    padding-left: 10px;
-}
-.main-busca{
-    top: -200px;
-    padding: 12px 66px 0 15px;
-}
-.main-busca-input{
-    font-size: 0.8em;
-}
-.main-busca-botao{
-    height: 67px;
-}
-footer p{
-    font-size: 1.19em;
+    }
+    .btn-log {
+        width: 110px;
+        padding-left: 10px;
+    }
+    .btn-sobre {
+        width: 110px;
+        padding-left: 10px;
+    }
+    .main-busca{
+        top: -200px;
+        padding: 12px 66px 0 15px;
+    }
+    .main-busca-input{
+        font-size: 0.8em;
+    }
+    .main-busca-botao{
+        height: 67px;
+    }
+    footer p{
+        font-size: 1.19em;
+    }
 }
 @media only screen and (max-width: 535px){
     .main-texto{
@@ -210,9 +211,55 @@ footer p{
     h2{
         font-size: 1em;
     }  
-
     .logo img{
         width: 176px;
     }
+}
+@media only screen and (max-width: 416px){
+    .main-texto{
+        width: 280px;
+    }
+    .logo img {
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    .btn-sobre {
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 27px;
+    }
+    .btn-sobre img{
+        height: 10px;
+    }
+    .btn-log {
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 27px;
+    }
 
+    .menu a{
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 1.6em;
+    }
+    h2 {
+        font-size: 0.8em;
+    }
+    .main-busca {
+        top: -380px;
+        padding: 7px;
+        height: 100%;
+    }
+    .fa, .fas {
+        padding-top: 14%;
+    }
+    .main-busca-input{
+        flex:0;
+    }
+    .main-busca-botao {
+        height: 0;
+    }
 }
