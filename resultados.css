@@ -1,9 +1,10 @@
+/* Estilo dos resultados dos posts - Otávio*/
 .box1{
     width: 400px;
     height: 120px;
     border-radius: 15px;
     border: 1px solid #5538EE24;
-    box-shadow: 0px 3px 6px #00000029;}
+    box-shadow: 0px 1px 1px #00000029;}
     
 
 .inline{
@@ -36,10 +37,12 @@
     justify-content:center;
     display: flex;}
 
-.textos{
+.textos p{
     display:flex column;
-    margin-top:1% ;}
-
+    margin-top:2%;
+    margin-bottom:5%;
+}
+    
 
 .paragrafo{
     display:inline;
@@ -54,10 +57,14 @@
 .link{
     display: inline;
     width: 15px;
-    height: 15px;
+    height: px;
     top: 5px;
     left: 50px ;
-    margin:2px;}
+    margin:2px;
+    
+}
+  
+   
 
 .coluna1{
     position:relative;
@@ -72,20 +79,30 @@
 
 .paragrafo p{
     margin-left:18%;
+    font-family:rubik;
+    font-weight: 400;
+    font-size: 11px; 
+
+
     }
 
 .link a{
-    margin-right:35%;
+    margin-inline-start:-35%;
     color:#354dd1;
-    font-family: Arial black;
-    font-size: 11px;
-    text-decoration: none;}
+    font-family:rubik;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 700;
+}
+  
 
 .inline h3{
     display: inline;
     margin-right:52%;
-    font-size:16px;
-    font-weight: 900;}
+    font-size:14px;
+    font-weight: 700;
+    font-family:rubik;
+}
     
 
 .inline h6 {
@@ -95,10 +112,16 @@
     position: absolute;
     margin-top: 1%;}
 
+    /* fim do estilo dos resultados dos posts - Otávio*/
+
+    /* Inicio do estilo dos resultados das imagens - Otávio*/
+
 .exibindo10 h2{
     color: rgb(40, 40, 201);
-    
-}
+    font-family:Rubik;
+    font-weight:400;
+
+    }
 
 .imagens1{
     position: relative;
@@ -121,7 +144,10 @@
 
 .tituloresultado h2{
     color: rgb(57, 57, 207);
+    font-family:Rubik;
+    font-size: 20px;
+    font-weight: 700;
 }
 
-    
+    /* fim do estilo de resultados das imagens - Otávio*/
     
