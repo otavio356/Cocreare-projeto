@@ -1,0 +1,127 @@
+.box1{
+    width: 400px;
+    height: 120px;
+    border-radius: 15px;
+    border: 1px solid #5538EE24;
+    box-shadow: 0px 3px 6px #00000029;}
+    
+
+.inline{
+    position: relative;
+    display: inline;
+    width: 50px;
+    height: 50px;
+    top: 5px;
+    left: 30px ;}
+
+.imgperfil{
+    width: 10px;
+    height: 10px;}
+   
+.modeloimg{
+    border-radius: 50%;
+    margin: 20px;
+    width: 40px;
+    max-width:200px;
+    max-height:150px;
+    }
+
+.bigbox{
+    margin-bottom: 120px;
+    width: 300px;
+    margin:auto;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    display: flex;}
+
+.textos{
+    display:flex column;
+    margin-top:1% ;}
+
+
+.paragrafo{
+    display:inline;
+    width: 30px;
+    height: 25px;
+    top: 3px;
+    left: 30px ;
+    font-size: 11px;
+    text-align:left;
+   }
+
+.link{
+    display: inline;
+    width: 15px;
+    height: 15px;
+    top: 5px;
+    left: 50px ;
+    margin:2px;}
+
+.coluna1{
+    position:relative;
+    display:flex-direction column;
+    margin:15px;}
+
+.coluna2{
+    position: relative;
+    display:flex-column; 
+    float:right;
+    margin:15px;}
+
+.paragrafo p{
+    margin-left:18%;
+    }
+
+.link a{
+    margin-right:35%;
+    color:#354dd1;
+    font-family: Arial black;
+    font-size: 11px;
+    text-decoration: none;}
+
+.inline h3{
+    display: inline;
+    margin-right:52%;
+    font-size:16px;
+    font-weight: 900;}
+    
+
+.inline h6 {
+    display: inline;
+    margin-left:-62%;
+    color: #d8d1d1;
+    position: absolute;
+    margin-top: 1%;}
+
+.exibindo10 h2{
+    color: rgb(40, 40, 201);
+    
+}
+
+.imagens1{
+    position: relative;
+    flex-wrap: nowrap;
+    height:200px;
+    width:63%;
+    margin:auto;
+    white-space: nowrap;
+    overflow:scroll;
+    justify-content: center;
+}
+.imagens1 img{
+    flex-wrap: nowrap;
+    margin:5px ;
+    border-radius:12%;
+    width: 150px;
+    height: 160px;
+    justify-content: center;
+}
+
+.tituloresultado h2{
+    color: rgb(57, 57, 207);
+}
+
+    
+    
