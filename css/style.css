@@ -9,7 +9,7 @@
 
 /* Começo Estilo topo */
 #topo{
-    background-image: url(./Img/hero-bg.jpg);
+    background-image: url(../Img/hero-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 788px;
@@ -266,7 +266,7 @@ footer p{
         height: 0;
     }
     #topo{
-        background-image: url(./Img/hero-bg-mobile.jpg);
+        background-image: url(../Img/hero-bg-mobile.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         height: 70vh;
