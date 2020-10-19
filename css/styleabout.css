@@ -16,27 +16,27 @@
 }
 
 h1{
-    top: 250px;
-    left: 140px;
-    width: 631px;
-    height: 98px;
-    bottom: 250px;
+    top: 25vw;
+    left: 14vw;
+    width: 63vw;
+    height: 9vw;
+    bottom: 29vw;
     text-align: left;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
-    margin-left: 140px;
-    margin-top: 180px;
+    margin-left: 10vw;
+    margin-top: 10vw;
     font-family: 'Rubik', sans-serif;
-    font-size: 82px;
+    font-size: 6.5vw;
     font-weight: 700;
 }
 
 #logo img {
-    top: 40px;
-    left: 64px;
-    width: 340px;
-    height: 42px;
+    top: 4vw;
+    left: 6vw;
+    width: 28vw;
+    height: 4vw;
     text-align: left;
     letter-spacing: 0px;
     color: #FFFFFF;
@@ -64,26 +64,26 @@ h1{
 
 #icon-hm{
 
-    width: 170px;
-    height: 49px;
+    width: 160px;
+    height: 4vw;
     background-color:#D842BD;
     display: flex;
     align-items: center;
-    padding-left: 38px;
-    border-radius: 25px;
+    padding-left: 10.5%;
+    border-radius: 35px;
     margin-right: 15px;
     margin-top: -45px;      
 }
 
 #icon-lg{
 
-    width: 170px;
-    height: 49px;
+    width: 160px;
+    height: 4vw;
     background-color: #3633F7;
     display: flex;
     align-items: center;
-    padding-left: 38px;
-    border-radius: 25px;
+    padding-left: 10.5%;
+    border-radius: 35px;
     margin-top: -45px;
 }
 /*corpo*/
@@ -91,7 +91,6 @@ h1{
 #main{
     display: inline-flex;
     float: center;
-    margin-block-end: 0%;
     spacing:between;
 
 }
@@ -114,7 +113,7 @@ h1{
 }
 
 .imgabstract {
-    display: inline-block;
+    display: flex;
     top: 40%;
     left: 60%; 
     width: 42%;
@@ -126,7 +125,6 @@ h1{
     }
 
 /*equipe*/
-
 
 .team{
     display: flex;
@@ -140,6 +138,7 @@ h1{
     float: left;
     font-family: 'Rubik', sans-serif;
     text-align: center;
+    align-items: stretch;
     letter-spacing: 0.23px;
     color: #292929;
     opacity: 1;
@@ -226,9 +225,10 @@ h1{
     opacity: 1;
 }
 
+
 .team a{
-    width: 10px;
-    height: 50px;
+    width: 1vw;
+    height: 5vw;
     background: var(--unnamed-color-d842bd) 0% 0% no-repeat padding-box;
     opacity: 1;
     display: flex;
@@ -236,19 +236,23 @@ h1{
     padding: 2px;
 }
 
-.redes{
+ul {
     width: 100%;
+    height: 300%;
     list-style: none;
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 40%;
+    position: relative;
+    margin: 5%;
+    
 }
 
-.box-one{
+
+.box {
     top: 40%;
     left: 40%;
     width: 40%;
-    height: 100%;
+    height: 500px;
     background: transparent url('../img/Elipse 11.png') 0% 0% no-repeat padding-box;
     opacity: 1;
     margin: 10px;
@@ -261,74 +265,6 @@ h1{
     justify-content: spacing-between;
 }
 
-.box-two{
-    top: 40%;
-    left: 40%;
-    width: 40%;
-    height: 100%;
-    background: transparent url('../img/Elipse 11.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-    margin: 10px;
-    border: 1px solid #5538EE24;
-    border-radius: 10px;
-    box-shadow: 0px 5px 10px #5538EE14;
-    padding: 1%;
-    display: flex;
-    flex-direction: column;
-    justify-content: spacing-between;
-}
-
-
-.box-three{
-    top: 40%;
-    left: 40%;
-    width: 40%;
-    height: 100%;
-    background: transparent url('../img/Elipse 11.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-    margin: 10px;
-    border: 1px solid #5538EE24;
-    border-radius: 10px;
-    box-shadow: 0px 5px 10px #5538EE14;
-    padding: 1%;
-    display: flex;
-    flex-direction: column;
-    justify-content: spacing-between;
-}
-
-.box-four{
-    top: 40%;
-    left: 40%;
-    width: 40%;
-    height: 100%;
-    background: transparent url('../img/Elipse 11.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-    margin: 10px;
-    border: 1px solid #5538EE24;
-    border-radius: 10px;
-    box-shadow: 0px 5px 10px #5538EE14;
-    padding: 1%;
-    display: flex;
-    flex-direction: column;
-    justify-content: spacing-between;
-}
-
-.box-five{
-    top: 40%;
-    left: 40%;
-    width: 40%;
-    height: 100%;
-    background: transparent url('../img/Elipse 11.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-    margin: 10px;
-    border: 1px solid #5538EE24;
-    border-radius: 10px;
-    box-shadow: 0px 5px 10px #5538EE14;
-    padding: 1%;
-    display: flex;
-    flex-direction: column;
-    justify-content: spacing-between;
-}
 
 /*parte final da pagina - footer*/
 footer {
@@ -347,6 +283,8 @@ footer {
     font-weight: 400px;
     font-size: 1.5625em;
 }
+
+/*Igualando medidas de telas*/
 
 @media only screen and (max-width: 940px) {
     
@@ -396,6 +334,7 @@ footer {
     h1{
         font-size: 3em;
         margin-left: 1.7em;
+        margin-top: 5em;
 }
 
     h2{
@@ -420,27 +359,104 @@ footer {
 }
 
 @media only screen and (max-width: 535px){
-    .abstract {
+    
+   .abstract {
         width: 380px;
         margin-left: 30px;
         margin-top: 10.5em;
+        
+    } 
+
+    .abstract p{
+        font-size: 1.45em;
+        display:flex;
+        flex-direction:column;
     }
+
+    .imgabstract {
+        width: 17px;
+        margin-left: -100px;
+        margin-top: 80px;
+           
+    }
+    .top{
+        width: 380px;
+        margin-left: 3px;
+    }
+    
+    #main{
+        width: 380px;
+        margin-left: 30px;
+        margin-top: 10.5em;
+        display:flex;
+        flex-direction:column;
+    }
+
     h1{
+        margin-top: 300px;
         font-size: 20px;
     }
     h2{
-        font-size: 15px;
+        font-size: 9px;
+        margin-left: 50px;
+        margin-bottom: -3vw;
     }  
 
-   .button{
-        width: 300px;
-        height: 149px;
-    }
-        
-    #logo{
-        width: 150px;
-        height: 10px;
-        margin-left:-35px;
+    h3{
+        justify-content: center;
+        margin-left: 50px;
     }
 
+    .team{
+        width: 680px;
+        height: 20%;
+        margin-left:2%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .team p{
+        margin-top: 80px;
+        font-size: 15px;
+    }
+
+    .ima{
+
+        margin-bottom: 50px;
+        align-items: center;
+    }
+
+    .redes{
+        margin-top:30px;
+        align-items:center;
+        margin-left:29%;
+        justify-content:space-between;
+    }
+
+    footer{
+        width: 680px;
+        align-items: center;
+    }
+
+    footer p{
+        font-size: 15px;
+        margin-left:-350px;
+    }
+
+    .button{
+    padding-left: 5%;
+    margin-top: 30px;
+    font-size:10px;
+    margin-left: 10px;
+    }
+
+    #icon-lg{
+        width: 80px;
+        height: 25px;
+    }
+    #icon-hm{
+        width:80px;
+
+    }       
+  
 }
