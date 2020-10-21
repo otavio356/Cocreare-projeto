@@ -213,6 +213,7 @@ footer p{
     }
 }
 @media only screen and (max-width: 480px){
+
     .main-texto{
         width: 80%;
         margin-top: 20%;
@@ -273,4 +274,5 @@ footer p{
     }
     .fa-search {
         font-size: 1.2em;
+}
 }

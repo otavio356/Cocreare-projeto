@@ -14,26 +14,25 @@ body {
   background-image: url(../Img/about-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  width: 100%;
+  height: 100%;
 }
 
 h1 {
-  text-align: left;
-  letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
   margin-left: 10vw;
-  margin-top: 15vw;
-  font-size: 6.5vw;
+  margin-top: 15%;
+  font-size: 5vw;
+  padding-bottom: 5%;
 }
 
 #logo img {
   text-align: left;
   letter-spacing: 0px;
   color: #ffffff;
-  font-family: Rubik, sans-serif;
   margin-top: 4%;
-  margin-left: 1%;
+  margin-left: 3%;
   opacity: 1;
 }
 
@@ -81,9 +80,9 @@ h1 {
   width: 100%;
   display: inline-flex;
   float: center;
-  spacing: between;
+  justify-content: space-between;
 }
-.abstract p{
+.abstract p {
   background: white;
   display: inline-flex;
   top: 125%;
@@ -99,8 +98,8 @@ h1 {
   margin-right: 5%;
 }
 
-.abstract h2{
-  margin-left:10%;
+.abstract h2 {
+  margin-left: 10%;
   margin-top: 15%;
   margin-bottom: -10%;
 }
@@ -111,14 +110,14 @@ h1 {
   left: 100%;
   width: 40%;
   height: 80%;
-  background: #FFF 0% 0% no-repeat padding-box;
+  background: #fff 0% 0% no-repeat padding-box;
   margin-top: 10%;
   margin-right: 32%;
   opacity: 1;
 }
 
 .imgabstract img {
-    width: 500%;
+  width: 500%;
 }
 
 /*equipe*/
@@ -130,12 +129,10 @@ h1 {
   background: white;
   top: 2000vw;
   left: 100%;
-  max-width: 700vw;
+  width: 94%;
   height: 100%;
   float: left;
-  font-family: "Rubik", sans-serif;
   text-align: center;
-  align-items: stretch;
   letter-spacing: 0.23px;
   color: #292929;
   opacity: 1;
@@ -146,8 +143,6 @@ h1 {
 
 h2 {
   text-align: left;
-  font: "Rubik", sans-serif;
-  letter-spacing: 0%;
   color: #3634f7;
   font-size: 40px;
   margin-left: 6%;
@@ -184,15 +179,12 @@ h2 {
 }
 
 .team h3 {
-  top: 50%;
-  left: 150%;
-  width: 50%;
-  height: 50%;
   color: var(--unnamed-color-292929);
   align-items: center;
   text-align: center;
   justify-content: space-between;
-  margin-left: 20%;
+  margin-top: 20%;
+  margin-left: 5%;
   font: Rubik, sans-serif;
   letter-spacing: 0px;
   color: #292929;
@@ -201,7 +193,6 @@ h2 {
 
 .team p {
   top: 80%;
-  left: 50%;
   height: 80%;
   align-items: center;
   text-align: justify;
@@ -224,7 +215,7 @@ h2 {
 }
 
 ul {
-    padding-inline-start: 0;
+  padding-inline-start: 0;
   width: 100%;
   list-style: none;
   display: flex;
@@ -232,8 +223,7 @@ ul {
 }
 
 .box {
-  
-  width: 40%;
+  width: 45%;
   background: transparent url("../img/Elipse 11.png") 0% 0% no-repeat
     padding-box;
   opacity: 1;
@@ -289,7 +279,7 @@ footer p {
   .abstract {
     width: 32%;
     margin-left: 2%;
-    margin-top: 10.5em;
+    margin-top: -4.5em;
   }
   .logo img {
     margin-left: 15px;
@@ -328,7 +318,7 @@ footer p {
 
   .team {
     flex-wrap: wrap;
-    justify-content:center;
+    justify-content: center;
   }
 
   .box p {
@@ -342,17 +332,16 @@ footer p {
 }
 
 @media only screen and (max-width: 535px) {
-  
-  .top { 
+  .top {
     width: 100%;
   }
 
-  .top img{
+  .top img {
     width: 40%;
   }
 
-  .button{
-    width:30%;
+  .button {
+    width: 30%;
     margin-right: 20%;
     margin-top: 4%;
   }
@@ -360,38 +349,32 @@ footer p {
   .abstract p {
     width: 280px;
     font-size: 15px;
-   }
+  }
 
   .imgabstract {
     width: 70px;
     margin-left: 20px;
     margin-top: 80px;
   }
-  
 
   #main {
-    /*width: 180px;
-    margin-left: 30px;
-    margin-top: 0px;*/
     display: flex;
     flex-direction: column;
   }
 
   h1 {
     margin: 111px auto;
-    font-size: 43px;
+    font-size: 25px;
     padding: 10px;
   }
   h2 {
     margin-top: 100px;
     font-size: 19px;
-    margin-left: 50px;
-    margin-bottom: -3vw;
+    margin-bottom: -6vw;
   }
 
   h3 {
     justify-content: center;
-    
   }
 
   .team {
@@ -399,26 +382,34 @@ footer p {
     height: 20%;
     margin-left: 2%;
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
   }
-
 
   .team p {
     margin-top: 70px;
     font-size: 14px;
   }
 
-  /*.ima {
-    margin-bottom: 50px;
-    align-items: center;
-  }*/
-
   .redes {
-     align-items: center;
-    
-    }
+    align-items: center;
+  }
 
-  .footer p{
+  .button a {
+    font-size: 10px;
+  }
+
+  #icon-lg {
+    height: 25px;
+    padding-left: 5.5%;
+    padding-right: 19px;
+  }
+  #icon-hm {
+    height: 25px;
+    padding-left: 5.5%;
+    padding-right: 19px;
+  }
+
+  .footer p {
     width: 280px;
     justify-content: center;
   }
@@ -426,21 +417,5 @@ footer p {
   footer p {
     font-size: 15px;
     margin-left: -350px;
-  }
-
-  /*.button {
-    
-    padding-left: 5%;
-    margin-top: 30px;
-    font-size: 10px;
-    margin-left: 10px;
-  }*/
-
-  /*#icon-lg {
-    width: 80px;
-    height: 25px;
-  }
-  #icon-hm {
-    width: 80px;*/
   }
 }
