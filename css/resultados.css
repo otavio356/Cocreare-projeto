@@ -120,26 +120,36 @@
     color: rgb(40, 40, 201);
     font-family:Rubik;
     font-weight:400;
+}
 
-    }
+#carosel-items{
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    background: transparent url("../img/Elipse 11.png") 0% 0% no-repeat
+    padding-box;
+}
 
-.imagens1{
-    position: relative;
-    flex-wrap: nowrap;
+.carosel-images {
+   /* position: relative;*/
+    /*flex-wrap: nowrap;*/
     height:200px;
-    width:63%;
+    width:65%;
     margin:auto;
+    margin-bottom: 5%;
+    margin-top:5%;
     white-space: nowrap;
     overflow:scroll;
-    justify-content: center;
+    /*justify-content: center;*/
+    scroll-snap-align: start;
 }
-.imagens1 img{
+
+.carosel-images img{
     flex-wrap: nowrap;
     margin:5px ;
     border-radius:12%;
     width: 150px;
     height: 160px;
-    justify-content: center;
+    justify-content: center;  
 }
 
 .tituloresultado h2{
