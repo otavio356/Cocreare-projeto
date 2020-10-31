@@ -233,3 +233,78 @@
 /* FIM das modificações - Gracielle */
 
 /* fim do estilo de resultados das imagens - Otávio*/
+
+@media only screen and (max-width: 940px) {
+  .carosel-itens {
+    width: 700px;
+    margin-left: 30px;
+    margin-top: 10.5em;
+  }
+
+  
+@media only screen and (max-width: 768px) {
+  
+  h2{
+    align-items: center;
+    width: 80%;
+    padding-left: 12%;
+    
+  }
+  .carosel-items {
+    width: 170%;
+    align-items: center;
+    height: -50%;
+    padding-left: -205%;
+    padding-top:-20%;
+    margin-left: -40%;
+  }
+
+ .carosel-images {
+    width: 35%;
+    height: 55%;
+  }
+
+ #btn-1 {
+   left: 330px; 
+   top: -75%
+  }
+
+ #btn-2 {
+    left: 65%;
+    margin-right: 12px;
+    top: -75%
+  }
+  
+}
+
+@media only screen and (max-width: 535px) {
+  h2{
+    align-items: center;
+    width: 110%;
+    
+  }
+  .carosel-items {
+    width: 180%;
+    align-items: center;
+    height: -90%;
+    padding-left: 20%;
+    padding-top:-10%;
+  }
+
+ .carosel-images {
+    width: 62%;
+    height: 52%;
+  }
+
+ #btn-1 {
+    left: 12%;
+    padding-left: 30px;
+    top: -52%;
+  }
+ #btn-2 {
+    left: 75%;
+    padding-right: 30px;
+    top: -52%;
+  }
+ 
+}
