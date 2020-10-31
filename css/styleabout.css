@@ -212,7 +212,7 @@ h2 {
 .team a {
   width: 1vw;
   height: 5vw;
-  background: var(--unnamed-color-d842bd) 0% 0% no-repeat padding-box;
+  background: #d842bd) 0% 0% no-repeat padding-box;
   opacity: 1;
   display: flex;
   justify-content: space-evenly;
