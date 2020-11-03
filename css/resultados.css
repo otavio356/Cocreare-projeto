@@ -161,8 +161,8 @@
   z-index: 3;
   left: 10%;
   top:-110%;
-  width: 6vw;
-  height: 6vw;
+  width: 4vw;
+  height: 4vw;
   opacity: 0.7;
   -moz-transform: scaleX(-1);
   -o-transform: scaleX(-1);
@@ -176,39 +176,28 @@
   background-size: 100% 100%;
   border-radius: 90px;
   z-index: 3;
-  right: -78%;
-  top:-110%;
-  width: 6vw;
-  height: 6vw;
+  right: -81%;
+  top:-115%;
+  width: 4vw;
+  height: 4vw;
   opacity: 0.7;
 }
 
-.zoom {
+.zoom img{
   padding: 50px;
   background-color: green;
   transition: transform .2s; /* Animation */
-  width: 200px;
-  height: 200px;
+  width: 100%;
+  height: 100%;
   margin: 0 auto;
 }
 
 .zoom:hover {
-  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(2.0); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  -moz-transform: scale(2.0);
+  -webkit-transform: scale(2.0);
 }
 
-/*
-.zoom {
-  max-width: 100%;
-  -moz-transform: all 0.3s;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-.zoom:hover {
-  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}*/
 
 .carosel-images h5{
    position: relative;
@@ -220,8 +209,6 @@
    color: #white;
    text-align: center;
    font-weight: 700;
-
-
 }
 
 .tituloresultado h2 {
@@ -234,44 +221,44 @@
 
 /* fim do estilo de resultados das imagens - Otávio*/
 
+/*Responsivo das imagens de exibição*/
+
 @media only screen and (max-width: 940px) {
   .carosel-itens {
     width: 700px;
     margin-left: 30px;
     margin-top: 10.5em;
   }
-
   
 @media only screen and (max-width: 768px) {
   
   h2{
-    align-items: center;
     width: 80%;
-    padding-left: 12%;
-    
+    padding-left: 6%; 
   }
+
   .carosel-items {
     width: 170%;
     align-items: center;
     height: -50%;
-    padding-left: -205%;
+    padding-left: -160%;
     padding-top:-20%;
-    margin-left: -40%;
+    margin-left: -45%;
   }
 
  .carosel-images {
-    width: 35%;
-    height: 55%;
+    width: 40%;
+    height: 60%;
   }
 
  #btn-1 {
-   left: 330px; 
+   left: 350px; 
    top: -75%
   }
 
  #btn-2 {
-    left: 65%;
-    margin-right: 12px;
+    left: 68%;
+    margin-right: 14px;
     top: -75%
   }
   
@@ -287,24 +274,23 @@
     width: 180%;
     align-items: center;
     height: -90%;
-    padding-left: 20%;
+    padding-left: 25%;
     padding-top:-10%;
   }
 
  .carosel-images {
     width: 62%;
-    height: 52%;
+    height: 50%;
   }
 
  #btn-1 {
-    left: 12%;
-    padding-left: 30px;
-    top: -52%;
+    left: 14%;
+    padding-left: 10px;
+    top: -48%;
   }
  #btn-2 {
-    left: 75%;
-    padding-right: 30px;
-    top: -52%;
+    left: 80%;
+    padding-right: 10px;
+    top: -48%;
   }
- 
 }

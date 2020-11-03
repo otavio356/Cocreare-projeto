@@ -28,6 +28,7 @@ function carregarImagens() {
 
 carregarImagens();
 
+
 function next() {
 
     document.querySelector('.carosel-images').innerHTML = "";
@@ -54,8 +55,10 @@ function next() {
         pagina = 1;
         
     }
+
 }
 
+        
 
 
 
