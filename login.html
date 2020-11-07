@@ -5,33 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Academy Project - Login</title>
+    <link rel="stylesheet" type="text/css" href="loginstyle.css">
+    
+
 </head>
 
-<body>
-    <!--Background Image --Kleber-->
-    <img class="bg" src="./img/login-bg.jpg">
-    <!--Home botton-->
-    <header>
-        <a href="home.html">
-            <span role="img" aria-label="Home">
-                <img src="./img/icon-home.svg" alt="Home">
-            </span>
-            HOME
-        </a>
+<body background="./img/login-bg.jpg" <header>
+
+    <a id="house" href="home.html">
+        <span role="img" aria-label="Home">
+            <img src="./img/icon-home.svg" alt="Home">
+        </span>
+        HOME
+    </a>
     </header>
     <!--Logo Hashfinder-->
     <img class="logohash" src="./img/logo-white2.svg">
     <!--rectangle white with login-->
-    <div class="bgwhite">
+    <div id="bgwhite">
         <div class="login">
             <h1>Login</h1>
-            
-            <input class="user" type="text" placeholder="Usuário" aria-label="Usuário">
-            <input class="password" type="password" placeholder="Senha" aria-label="Senha">
-            <input class="btnaccess" type="submit" value="ACESSAR">
-
+            <form onsubmit="validate(event)" action=" " method="GET">
+                <input class="user" id="usuario" type="email" placeholder="Usuário" aria-label="Usuário" required="required" />
+                <input class="password" id="senha" type="password" placeholder="Senha" aria-label="Senha" required="required" />
+                <input class="btnaccess" type="submit" value="ACESSAR">
+            </form>
         </div>
     </div>
+    
+     <script type="text/javascript" src="login.js"></script>
 </body>
 
 </html>

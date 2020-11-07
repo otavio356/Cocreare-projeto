@@ -1,0 +1,121 @@
+#house {
+
+    top: 5%;
+    right: 4%;
+    width: 11%;
+    height: 7%;
+    position: absolute;
+    text-align: left;
+    font: normal normal bold 14px/10px Rubik;
+    letter-spacing: 2.55px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: var(--unnamed-color-d842bd) 0% 0% no-repeat padding-box;
+    background: #D842BD 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #5538EE29;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#house img {
+    margin-right: 10px;
+
+}
+
+body {
+
+    background-size: auto;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.logohash {
+
+    top: 4%;
+    left: 3%;
+    width: 18%;
+    height: 7%;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+
+}
+
+#bgwhite {
+    position: absolute;
+    top: 20%;
+    left: 37%;
+    width: 26%;
+    height: 60%;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+}
+
+.login h1 {
+    top: 12%;
+    left: 40%;
+
+    color: var(--unnamed-color-3634f7);
+    text-align: left;
+    font: normal normal bold 23px Rubik;
+    letter-spacing: 0px;
+    color: #3634F7;
+    position: absolute;
+
+}
+
+.user {
+    position: absolute;
+    top: 32%;
+    left: 10%;
+    width: 80%;
+    height: 7%;
+    border: 0px 0px 0px 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #E9E9F0;
+
+}
+
+.password {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 80%;
+    height: 7%;
+    border: 0px 0px 0px 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #E9E9F0;
+
+}
+
+.btnaccess {
+    top: 70%;
+    left: 31%;
+    text-align: center;
+    font: normal normal bold 14px Rubik;
+    letter-spacing: 1px;
+    color: white;
+    position: absolute;
+    background-color: #3634F7;
+    box-shadow: 0px 3px 6px #5538EE29;
+    border-radius: 25px;
+    width: 40%;
+    height: 10%;
+    border-color: #3634F7;
+    border: solid 1px;
+
+}
