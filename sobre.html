@@ -1,80 +1,231 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <title>Academy Project - Sobre</title>
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable = no"
+    />
+    <title>Academy Project - Sobre</title>
+    <link href="./css/styleabout.css" rel="stylesheet" />
 
-    <body>
-        <!--Div para inclusão do topo - Gracielle -->
-        <div id="top">
-            <img src= "./img/about-bg.jpg" />
-            <img src= "./img/logo-white.svg" />
-            <nav>
-                <a href="home.html" >Home</a>
-                <a href="login.html" >Login</a>
-            </nav>
-            <h1>Sobre o projeto</h1>
-        </div>
-        
-        <!--Div para explicação do projeto - Gracielle-->
-        <div id="abstract">
-             
-          <h2>O que é:</h2>
-          <p> O objetivo do projeto é desenvolver uma página web responsiva para visualização de mensagens e imagens com integração com a API do Twitter. Isso proporcionou á equipe experiência para podermos apresentar nossos conhecimentos e nossa atuação como front-end. Este projeto consiste em três partes, primeiro foi construida em códigos de HTML, depois estilizado com o CSS para começar a dar vida ao projeto e  implementamos o JavaScript. Utilizamos também no meio do processo os frameworks React e o Angular, para renderizar de forma eficiente o nosso trabalho.</p>
-          
-          <img width="500px" height="500px" src="./img/about-illustration.svg" />
-        </div>
-            
-            <br>
-            <br>
-         
-            <!-- Resumo da equipe, imagens e redes pessoais - Gracielle-->
-        <div id="team">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-            <img src ="./img/Aline_Lucena.jpg" height= "100" width="100" />
-            <h2>Aline Lucena</h2>
-            <p>Aline Lucena, 27 anos. Vive em São Paulo atualmente, cursa Análise e desenvolvimento de sistema na FMU e Desenvolvedor front-end na instituição Cocreare. Tem conhecimentos na área administrativas e experiência em webdesign, artes gráficas, layout, integrações marktplaces e atualização de sites.</p>
-            <a href = "https://github.com/lucenaaline" target="-blank"><img src ="./img/icon-github.svg" height= "20" width="40"></a> 
-            <a href = "https://www.linkedin.com/in/alinelucena/" target="-blank"><img src ="./img/icon-linkedin.svg" height= "20" width="40"></a> 
-            <a href ="mailto:aline@webookers.com.br " target="-blank"><img src ="./img/icon-envelope.svg" height= "20" width="40"></a>
-            <br>
+  <body>
+    <!--Div para inclusão do topo - Gracielle -->
+    <header class="top">
+      <div id="logo">
+        <img src="./Img/logo-white.svg" alt="Logotipo" />
+      </div>
 
-            <img src="./img/Carlos.jpg"height="100" width="100" />
-            <h2>Carlos</h2>
-            <p>Carlos Ribeiro, 25 anos. Vive atualmente em São Paulo, é Desenvolvedor front-end, apaixonado por tecnologia, fã de cultura pop, games e coisas geek.</p>
-            <a href = "https://github.com/ribeiro-carlos/" target="-blank"><img src ="./img/icon-github.svg" height= "20" width="40"></a>     
-            <a href = "https://www.linkedin.com/in/carlos-ribeiros/" target="-blank"><img src ="./img/icon-linkedin.svg" height= "20" width="40"></a> 
-            <a href ="mailto:carlinhos.ars@gmail.com" target="-blank"><img src ="./img/icon-envelope.svg" height= "20" width="40"></a>
-            <br>
-
-            <img src= "./img/Gracielle.jpg" height="100" width="100" />
-            <h2>Gracielle Oliveira</h2>
-            <p>Gracielle Gualberto Santos Oliveira, 37 anos. Vive atualmente em São Paulo, cursa Desenvolvedor front-end na instituição Cocreare. Formada em Gestão financeira e Técnico administrativo, tem cursos básicos de linguagem de programação como Java, HTML e atualmente está se aperfeiçoando como front-end para migrar da área administrativa e financeira à área da tecnologia que melhro se iddentifica.</p>
-            <a href = "https://github.com/Gracielle-Oliveira" target="-blank"><img src ="./img/icon-github.svg" height= "20" width="40"></a>
-            <a href = "https://www.linkedin.com/in/gracielle-oliveira-9a948064/" target="-blank"><img src ="./img/icon-linkedin.svg" height= "20" width="40"></a> 
-            <a href ="mailto:gra2gso@gmail.com" target="-blank"><img src ="./img/icon-envelope.svg" height= "20" width="40"></a>
-            <br>
-
-            <img src="./img/Kleber.jpg"height="100" width="100" />
-            <h2>Kleber Sanzony</h2>
-            <p>Kleber Sanzony, 28 anos. Vive atualmente em Pernambuco, músico, estudante de Análise e Desenvolvimento de Sistemas e Front-End. Apaixonado por tecnologia.</p>
-            <a href = "https://github.com/kleber-s17" target="-blank"><img src ="./img/icon-github.svg" height= "20" width="40"></a>                            
-            <a href = "https://www.linkedin.com/in/klebersanzony/" target="-blank"><img src ="./img/icon-linkedin.svg" height= "20" width="40"></a> 
-            <a href ="mailto:kleber_s17@hotmail.com" target="-blank"><img src ="./img/icon-envelope.svg" height= "20" width="40"></a>
-            <br>
-
-            <img src ="./img/foto%20otavio%202.jpeg" height= "100" width="100" />
-            <h2>Otávio Augusto</h2>
-            <p>Otávio Augusto, 27 anos. Vive atualmente na Bahia, é um Desenvolvedor front-end, com conhecimentos que possibilitam a flexibilidade para exercer o trabalho dentro de qualquer empresa com esses seguimentos.</p>
-            <a href = "https://github.com/otavio356" target="-blank"><img src ="./img/icon-github.svg" height= "20" width="40"></a>
-            <a href = "https://www.linkedin.com/in/otávio-froes-8969751aa/" target="-blank"><img src ="./img/icon-linkedin.svg" height= "20" width="40"></a> 
-            <a href ="mailto:Otvirtue@gmail.com" target="-blank"><img src ="./img/icon-envelope.svg" height= "20" width="40"></a>
+      <nav class="button">
+        <div id="icon-hm">
+          <img src="./Img/icon-home.svg" alt="Home" />
+          <a href="home.html">Home</a>
         </div>
 
-        <footer>
-            <p>@Cocreare 2020. Todos os direitos reservados</p>
-       </footer>
-           
-    </body>
+        <div id="icon-lg">
+          <img src="./Img/icon-user-alt.svg" alt="" />
+          <a href="login.html">Login</a>
+        </div>
+      </nav>
+
+      <h1>Sobre o projeto</h1>
+    </header>
+
+    <!--Div para explicação do projeto - Gracielle-->
+
+    <div id="main">
+      <div class="abstract">
+        <h2>O que é</h2>
+        <br />
+        <p>
+          O objetivo do projeto é desenvolver uma página web responsiva para
+          visualização de mensagens e imagens com integração com a API do
+          Twitter. Isso proporcionou á equipe experiência para podermos
+          apresentar nossos conhecimentos e nossa atuação como front-end. Este
+          projeto consiste em três partes, primeiro foi construida em códigos de
+          HTML, depois estilizado com o CSS para começar a dar vida ao projeto e
+          implementamos o JavaScript. Utilizamos também no meio do processo os
+          frameworks React e o Angular, para renderizar de forma eficiente o
+          nosso trabalho.
+        </p>
+      </div>
+
+      <div class="imgabstract">
+        <img src="./Img/about-illustration.svg" />
+      </div>
+    </div>
+
+    <!-- Resumo da equipe, imagens e redes pessoais - Gracielle-->
+    <div class="all">
+      <h2>Quem somos</h2>
+      <div class="team">
+        <div class="box">
+          <img class="ima" src="./Img/Aline_Lucena.jpg" />
+          <h3>Aline Lucena</h3>
+          <p>
+            Aline Lucena, 27 anos. Vive em São Paulo atualmente, cursa Análise e
+            desenvolvimento de sistema na FMU e Desenvolvedor front-end na
+            instituição Cocreare. Tem conhecimentos na área administrativas e
+            experiência em webdesign, artes gráficas, layout, integrações
+            marktplaces e atualização de sites.
+          </p>
+
+          <ul class="redes">
+            <li>
+              <a href="https://github.com/lucenaaline" target="_blank"
+                ><img src="./Img/icon-github.svg"
+              /></a>
+            </li>
+            <li>
+              <a href="mailto:aline@webookers.com.br " target="_blank"
+                ><img src="./Img/icon-envelope.svg"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/alinelucena/" target="_blank"
+                ><img src="./Img/icon-linkedin.svg"
+              /></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <img class="ima" src="./Img/Carlos.jpg" />
+          <h3>Carlos Ribeiro</h3>
+          <p>
+            Carlos Ribeiro, 25 anos. Vive atualmente em São Paulo, é
+            Desenvolvedor front-end, apaixonado por tecnologia, fã de cultura
+            pop, games e coisas geek.
+          </p>
+
+          <ul class="redes">
+            <li>
+              <a href="https://github.com/ribeiro-carlos/" target="_blank"
+                ><img src="./Img/icon-github.svg"
+              /></a>
+            </li>
+            <li>
+              <a href="mailto:carlinhos.ars@gmail.com" target="_blank"
+                ><img src="./Img/icon-envelope.svg"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/carlos-ribeiros/"
+                target="_blank"
+                ><img src="./Img/icon-linkedin.svg"
+              /></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <img class="ima" src="./Img/Gracielle.jpg" height="100" width="100" />
+          <h3>Gracielle Oliveira</h3>
+          <p>
+            Gracielle Gualberto Santos Oliveira, 37 anos. Vive atualmente em São
+            Paulo, inciando como Desenvolvedor front-end na instituição
+            Cocreare. Formada em Gestão financeira e Técnico administrativo, tem
+            cursos básicos de linguagem de programação como Java e
+            atualmente está se aperfeiçoando para migrar da área administrativa
+            à tecnologia, que melhor se identifica.
+          </p>
+          <ul class="redes">
+            <li>
+              <a href="https://github.com/Gracielle-Oliveira" target="_blank"
+                ><img src="./Img/icon-github.svg"
+              /></a>
+            </li>
+            <li>
+              <a href="mailto:gra2gso@gmail.com" target="_blank"
+                ><img src="./Img/icon-envelope.svg"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/gracielle-oliveira-9a948064/"
+                target="_blank"
+                ><img src="./Img/icon-linkedin.svg"
+              /></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <img class="ima" src="./Img/Kleber.jpg" height="100" width="100" />
+          <h3>Kleber Sanzony</h3>
+          <p>
+            Kleber Sanzony, 28 anos. Vive atualmente em Pernambuco, músico,
+            estudante de Análise e Desenvolvimento de Sistemas e Front-End.
+            Apaixonado por tecnologia.
+          </p>
+          <ul class="redes">
+            <li>
+              <a href="https://github.com/kleber-s17" target="_blank"
+                ><img src="./Img/icon-github.svg"
+              /></a>
+            </li>
+            <li>
+              <a href="mailto:kleber_s17@hotmail.com" target="_blank"
+                ><img src="./Img/icon-envelope.svg"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/klebersanzony/"
+                target="_blank"
+                ><img src="./Img/icon-linkedin.svg"
+              /></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <img
+            class="ima"
+            src="./Img/foto%20otavio%202.jpeg"
+            height="100"
+            width="100"
+          />
+          <h3>Otávio Augusto</h3>
+          <p>
+            Otávio Augusto, 27 anos. Vive atualmente na Bahia, é um
+            Desenvolvedor front-end, com conhecimentos que possibilitam a
+            flexibilidade para exercer o trabalho dentro de qualquer empresa com
+            esses seguimentos.
+          </p>
+
+          <ul class="redes">
+            <li>
+              <a href="https://github.com/otavio356" target="_blank"
+                ><img src="./Img/icon-github.svg"
+              /></a>
+            </li>
+            <li>
+              <a href="mailto:Otvirtue@gmail.com" target="_blank"
+                ><img src="./Img/icon-envelope.svg"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/otávio-froes-8969751aa/"
+                target="_blank"
+                ><img src="./Img/icon-linkedin.svg"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>@Cocreare 2020. Todos os direitos reservados</p>
+    </footer>
+  </body>
 </html>

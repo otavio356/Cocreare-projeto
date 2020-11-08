@@ -1,0 +1,296 @@
+/* Estilo dos resultados dos posts - Otávio*/
+.box1 {
+  width: 400px;
+  height: 120px;
+  border-radius: 15px;
+  border: 1px solid #5538ee24;
+  box-shadow: 0px 1px 1px #00000029;
+}
+
+.inline {
+  position: relative;
+  display: inline;
+  width: 50px;
+  height: 50px;
+  top: 5px;
+  left: 30px;
+}
+
+.imgperfil {
+  width: 10px;
+  height: 10px;
+}
+
+.modeloimg {
+  border-radius: 50%;
+  margin: 20px;
+  width: 40px;
+  max-width: 200px;
+  max-height: 150px;
+}
+
+.bigbox {
+  margin-bottom: 120px;
+  width: 300px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  display: flex;
+}
+
+.textos p {
+  display: flex column;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.paragrafo {
+  display: inline;
+  width: 30px;
+  height: 25px;
+  top: 3px;
+  left: 30px;
+  font-size: 11px;
+  text-align: left;
+}
+
+.link {
+  display: inline;
+  width: 15px;
+  height: px;
+  top: 5px;
+  left: 50px;
+  margin: 2px;
+}
+
+.coluna1 {
+  position: relative;
+  display: flex-direction column;
+  margin: 15px;
+}
+
+.coluna2 {
+  position: relative;
+  display: flex-column;
+  float: right;
+  margin: 15px;
+}
+
+.paragrafo p {
+  margin-left: 18%;
+  font-family: rubik;
+  font-weight: 400;
+  font-size: 11px;
+}
+
+.link a {
+  margin-inline-start: -35%;
+  color: #354dd1;
+  font-family: rubik;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.inline h3 {
+  display: inline;
+  margin-right: 52%;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: rubik;
+}
+
+.inline h6 {
+  display: inline;
+  margin-left: -62%;
+  color: #d8d1d1;
+  position: absolute;
+  margin-top: 1%;
+}
+
+/* fim do estilo dos resultados dos posts - Otávio*/
+
+/* Inicio do estilo dos resultados das imagens - Otávio*/
+
+.exibindo10 h2 {
+  color: rgb(40, 40, 201);
+  font-family: Rubik;
+  font-weight: 400;
+}
+
+
+/* Modificações feitas por Gracielle para a implantação do JS */
+
+.carosel-items {
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  background: transparent 0% 0% no-repeat;
+  height: 200px;
+}
+
+.carosel-images {
+  position: relative;
+  flex-wrap: nowrap;
+  height: 200px;
+  width: 65%;
+  margin: auto;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  white-space: nowrap;
+  overflow: hidden;
+  justify-content: center;
+  scroll-snap-align: start;
+}
+
+.carosel-images img {
+  flex-wrap: nowrap;
+  margin: 0.5%;
+  border-radius: 12%;
+  width: 19%;
+  height: 75%;
+  justify-content: center;
+}
+
+#btn-1 {
+  position: relative;
+  background-image: url("../Img/arrow.svg");
+  background-size: 100% 100%;
+  border-radius: 90px;
+  z-index: 3;
+  left: 10%;
+  top:-110%;
+  width: 4vw;
+  height: 4vw;
+  opacity: 0.7;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+#btn-2{
+  position: relative;
+  background-image: url("../Img/arrow.svg");
+  background-size: 100% 100%;
+  border-radius: 90px;
+  z-index: 3;
+  right: -81%;
+  top:-115%;
+  width: 4vw;
+  height: 4vw;
+  opacity: 0.7;
+}
+
+.zoom img{
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s; /* Animation */
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(2.0); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  -moz-transform: scale(2.0);
+  -webkit-transform: scale(2.0);
+}
+
+
+.carosel-images h5{
+   position: relative;
+   left: 5%;
+   right: 5%;
+   bottom:20px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   color: #white;
+   text-align: center;
+   font-weight: 700;
+}
+
+.tituloresultado h2 {
+  color: rgb(57, 57, 207);
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 700;
+}
+/* FIM das modificações - Gracielle */
+
+/* fim do estilo de resultados das imagens - Otávio*/
+
+/*Responsivo das imagens de exibição*/
+
+@media only screen and (max-width: 940px) {
+  .carosel-itens {
+    width: 700px;
+    margin-left: 30px;
+    margin-top: 10.5em;
+  }
+  
+@media only screen and (max-width: 768px) {
+  
+  h2{
+    width: 80%;
+    padding-left: 6%; 
+  }
+
+  .carosel-items {
+    width: 170%;
+    align-items: center;
+    height: -50%;
+    padding-left: -160%;
+    padding-top:-20%;
+    margin-left: -45%;
+  }
+
+ .carosel-images {
+    width: 40%;
+    height: 60%;
+  }
+
+ #btn-1 {
+   left: 350px; 
+   top: -75%
+  }
+
+ #btn-2 {
+    left: 68%;
+    margin-right: 14px;
+    top: -75%
+  }
+  
+}
+
+@media only screen and (max-width: 535px) {
+  h2{
+    align-items: center;
+    width: 110%;
+    
+  }
+  .carosel-items {
+    width: 180%;
+    align-items: center;
+    height: -90%;
+    padding-left: 25%;
+    padding-top:-10%;
+  }
+
+ .carosel-images {
+    width: 62%;
+    height: 50%;
+  }
+
+ #btn-1 {
+    left: 14%;
+    padding-left: 10px;
+    top: -48%;
+  }
+ #btn-2 {
+    left: 80%;
+    padding-right: 10px;
+    top: -48%;
+  }
+}

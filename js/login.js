@@ -6,7 +6,7 @@ function validate(e) {
     var pass = document.getElementById("senha").value;
     // validação de dados 
     if (email == 'academy@cocreare.com.br' && pass == '123456') { 
-        window.location.href = "resultadobuscas.html" 
+        window.location.href = "./resultadobuscas.html" 
     } else { 
         alert('Dados incorretos. Por favor, tente novamente!') }
 }
